@@ -22,17 +22,21 @@ function goBack() {
 }
 
 function openTournaments() {
-  showPage"tournaments");
+  showPage("tournaments");
 }
-function go Back() {
-  showPage("play");
-}
-function openTasks() {
-  showPage("tasks");
-}
+
 function goBack() {
   showPage("play");
 }
+
+function openTasks() {
+  showPage("tasks");
+}
+
+function goBack() {
+  showPage("play");
+}
+
 /* MENU TOGGLE */
 const menuBtn = document.getElementById('menuBtn');
 const menu = document.getElementById('menu');
