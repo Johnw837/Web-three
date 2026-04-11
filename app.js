@@ -21,6 +21,18 @@ function goBack() {
   showPage('play');
 }
 
+function openTournaments() {
+  showPage"tournament");
+}
+function go Back() {
+  showPage("play");
+}
+function openTasks() {
+  showPage("task");
+}
+function goBack() {
+  showPage("play");
+}
 /* MENU TOGGLE */
 const menuBtn = document.getElementById('menuBtn');
 const menu = document.getElementById('menu');
