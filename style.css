@@ -95,6 +95,10 @@ body {
   padding: 20px;
   border-radius: 15px;
 }
+/* STARTGAME CARD */
+.startgame-card {
+  background: linear-gradient(red, purple);
+}
 /* NAVBAR */
 .nav {
   position: fixed;
