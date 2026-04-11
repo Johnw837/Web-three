@@ -22,13 +22,13 @@ function goBack() {
 }
 
 function openTournaments() {
-  showPage"tournament");
+  showPage"tournaments");
 }
 function go Back() {
   showPage("play");
 }
 function openTasks() {
-  showPage("task");
+  showPage("tasks");
 }
 function goBack() {
   showPage("play");
