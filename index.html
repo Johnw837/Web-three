@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="profile">JohnW837</div>
+
+  <div class="currency">
+    <span>⚗️ 20</span>
+    <span>💎 0</span>
+  </div>
+
+  <button id="menuBtn">☰</button>
+</div>
+
+<!-- MENU POPUP -->
+<div class="menu hidden" id="menu">
+  <p>🎁 Daily Rewards</p>
+  <p>💬 Chats</p>
+  <p>⚙️ Settings</p>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="content">
+
+  <!-- PLAY PAGE -->
+  <div class="page active" id="play">
+
+    <div class="card open-box">🎁 OPEN</div>
+
+    <div class="sections">
+      <div class="section" onclick="openEvents()">EVENTS</div>
+      <div class="section">JOURNEY</div>
+      <div class="section">TOURNAMENTS</div>
+      <div class="section">TASKS</div>
+    </div>
+
+  </div>
+
+  <!-- EVENTS PAGE -->
+  <div class="page" id="events">
+    <button onclick="goBack()">⬅ Back</button>
+
+    <h2>EVENTS</h2>
+    <p>Participate in limited-time events</p>
+
+    <div class="event-card">
+      <h3>MIDNIGHT HUNT</h3>
+      <p>Event: 5d 19h</p>
+      <p>Exchange: 6d 19h</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="nav">
+  <button onclick="showPage('dojo')">DOJO</button>
+  <button onclick="showPage('recruits')">RECRUITS</button>
+  <button onclick="showPage('play')">PLAY</button>
+  <button onclick="showPage('leaders')">LEADERS</button>
+  <button onclick="showPage('shop')">SHOP</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
