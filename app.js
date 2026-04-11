@@ -13,6 +13,14 @@ function goBack() {
   showPage('play');
 }
 
+function openJourney() {
+  showPage('journey');
+}
+
+function goBack() {
+  showPage('play');
+}
+
 /* MENU TOGGLE */
 const menuBtn = document.getElementById('menuBtn');
 const menu = document.getElementById('menu');
