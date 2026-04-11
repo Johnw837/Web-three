@@ -77,6 +77,12 @@ body {
   border-radius: 15px;
 }
 
+/* JOURNEY CARD */
+.journey-card {
+  background: linear-gradient(red, purple);
+  padding: 20px;
+  border-radius: 15px;
+}
 /* NAVBAR */
 .nav {
   position: fixed;
