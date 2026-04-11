@@ -37,6 +37,14 @@ function goBack() {
   showPage("play");
 }
 
+function openStartgame() {
+  showPage("startgame");
+}
+
+function goBack() {
+  showPage("play");
+}
+
 /* MENU TOGGLE */
 const menuBtn = document.getElementById('menuBtn');
 const menu = document.getElementById('menu');
